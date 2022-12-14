@@ -71,6 +71,7 @@ section{
 }
 .home-img img{
     max-width: 100%;
+    width: 600px;
     height: auto;
 }
 .home-text h1{
@@ -89,9 +90,12 @@ section{
     border-radius: 0.5rem;
 }
 .btn:hover{
-    transform: scale(1.2) translate(10px);
+    transform: scale(1.2) translateY(10px);
     transition: .4s;
 }
+
+
+/* ********* about us ******************* */
 .about{
     display: grid;
     grid-template-columns: repeat(2,2fr);
@@ -111,14 +115,16 @@ section{
     font-size: var(--h2-font);
 }
 .about-text p{
-    margin: 0.8rem 1.8rem;
+    margin: 0.8rem 0 1.8rem;
     line-height: 1.7;
 }
+
+
+/* *********** MENU Section************ */
 .heading{
     text-align: center;
 }
 .heading span{
-
     color: var(--main-color);
     font-weight: 600;
 }
@@ -157,6 +163,9 @@ section{
 }
 .menu-container .box h3{
     color: var(--bg-color);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 4px 0 10px;
 }
 .menu-container .box span{
     font-size: var(--p-font);
@@ -172,6 +181,8 @@ section{
     padding: 7px 10px;
     border-radius: 0 0.5rem 0 0.5rem;
 }
+
+/* ********* Services ****************** */
 .service-container{
     display: grid;
     grid-template-columns:repeat(auto-fit,minmax(240px,auto));
@@ -193,6 +204,8 @@ section{
 .s-box p{
     line-height: 1.7;
 }
+
+/* *********Call to Action ************ */
 .cta{
     background: #feeee7;
     padding: 70px 0;
@@ -206,6 +219,8 @@ section{
     color: var(--bg-color);
     margin-bottom: 30px;
 }
+
+/* *************** Footer *************** */
 .footer .main{
     display: flex;
     flex-wrap: wrap;
@@ -226,7 +241,7 @@ section{
     content: "";
     position: absolute;
     height: 2px;
-    width: 50%;
+    width: 50px;
     left: 0;
     bottom: -8px;
     background: var(--main-color);
